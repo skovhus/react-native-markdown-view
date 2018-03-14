@@ -172,3 +172,11 @@ MarkdownView.propTypes = {
 }
 
 export default MarkdownView
+
+export const markdownUtilities = {
+  IMAGE_HREF_AND_TITLE,
+  IMAGE_LINK,
+  IMAGE_SIZE,
+  inlineRegex,
+  unescapeUrl,
+}
